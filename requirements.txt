@@ -3,7 +3,12 @@ nltk
 spacy>=2.2.0,<3.0.0
 pandas
 elasticsearch
+elasticsearch-dsl
+torch
 fastai
+fastbook
+seaborn
+# tensorflow_gpu>=2.0  # Triggers an error (probably the server does not have a compatible GPU)
 ktrain
 tqdm
 tensorflow==2.11
